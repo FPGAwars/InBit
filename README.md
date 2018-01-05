@@ -9,9 +9,9 @@ I wanted to learn a little bit about the **web technologies** for the **Desktop*
 
 ## How it works?
 
-When you turn then GUI switch on or off, the DTR signal from the serial port is changed. Im using it with the [Icezum Alhambra](https://github.com/FPGAwars/icezum/wiki) OpenFPGA board for sending bits from the Desktop to my circuits. Of course, it can also be used with any other **FTDI-based** board. The InBit app just opens a **serial port** and change the **DTR signal** according to the user inputs
+When you turn the **GUI switch** on or off, the **DTR signal** from the **serial port** is changed. Im using it with the [Icezum Alhambra](https://github.com/FPGAwars/icezum/wiki) OpenFPGA board for sending bits from the Desktop to my circuits. Of course, it can also be used with any other **FTDI-based** board. The InBit app just opens a **serial port** and change the **DTR signal** according to the user inputs
 
-The **hello-world** circuit that is used in the above animation is the following:
+The **hello-world** circuit that has been **uploaded** into the board in the above **animation** is the following:
 
 
 ![](wiki/v0.1//dtr-leds-circuit.png)
