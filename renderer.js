@@ -3,7 +3,7 @@
 // All of the Node.js APIs are available in this process.
 
 const serialport = require('serialport')
-var port = new serialport('/dev/ttyUSB1', {
+var port = new serialport('/dev/ttyUSB1', { //--> Change /dev/ttyUSB1 for you serial port name
   baudRate:115200
 });
 
